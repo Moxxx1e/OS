@@ -129,7 +129,7 @@ int main(void)
 		long int ttime;
 	   	ttime = time(NULL);
 
-	    syslog(LOG_INFO, "%s", ctime(&ttime));
+		syslog(LOG_INFO, "%s", ctime(&ttime));
 		sleep(10);
 	}
 }
