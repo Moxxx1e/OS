@@ -127,9 +127,9 @@ int main(void)
 	while(1)
 	{
 		long int ttime;
-    	ttime = time(NULL);
- 
-    	syslog(LOG_INFO, "%s", ctime(&ttime));
+	   	ttime = time(NULL);
+
+	    syslog(LOG_INFO, "%s", ctime(&ttime));
 		sleep(10);
 	}
 }
