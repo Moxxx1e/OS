@@ -1,4 +1,4 @@
-gcc -o main.c daemon_name.out
+gcc main.c -o daemon_name.out
 
 to execute:
   sudo ./daemon_name.out
